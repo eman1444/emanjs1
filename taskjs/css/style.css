@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(253, 239, 222);
+    min-height: 2000px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.d1{
+    height: 80vh;
+    width: 100%;
+    background-image: url(../image/88.PNG);
+
+    background-size: cover;
+}
+.list li{
+    display: inline;
+}
+ img{
+    margin: 20px 20px;
+    width: 150px;
+    height: 150px;
+    box-shadow: 10px 10px 5px rgb(210, 174, 124);
+    
+}
+.btn1,.btn2{
+    background-color:  rgb(199, 158, 101);
+    border: none;
+    width: 100%;
+    font-weight:bold ;
+}
+.btn1:hover ,.btn2:hover{
+    background-color:  rgb(171, 124, 58);
+   
+}
+.btn2{
+    font-size: 30px;
+    color: rgb(253, 239, 222);
+font-weight:bold ;
+    height: 50px;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card1{
+    
+    margin: 20px auto;
+    text-align: center;
+    width: 300px;
+}
+#sum ,#show,.p1{
+    text-align: center;
+    font-size: 20px;
+    direction: rtl;
+}
+.card1 img:hover{
+    transform: scale(1.5);
+}
